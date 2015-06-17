@@ -3,7 +3,7 @@
 #ssh -t -t igor.beaufils@outils.int.globepayroll.com <<EOF
 su igor.beaufils 
  cd /distrib/tools/gitWorkPlace/hello-jenkins
-  git pull
+ # git pull
   npm install --production
   forever start app.js
 exit
