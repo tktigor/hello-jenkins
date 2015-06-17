@@ -6,6 +6,6 @@ su igor.beaufils
  # git pull
   npm install --production
   forever start app.js
-#exit
+exit
 #EOF
 
