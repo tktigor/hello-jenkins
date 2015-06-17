@@ -1,7 +1,7 @@
 #!/bin/sh
  
-ssh -t -t igor.beaufils@outils.int.globepayroll.com <<EOF
-  cd /distrib/tools/gitWorkPlace/hello-jenkins
+ssh -t -t root@outils.int.globepayroll.com <<EOF
+  cd ~/hello-jenkins
   git pull
   npm install --production
   forever start app.js
