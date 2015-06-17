@@ -4,6 +4,6 @@
   cd /distrib/tools/gitWorkPlace/hello-jenkins
   git pull
   npm install --production
-  forever restartall
+  forever start app.js
 
 
