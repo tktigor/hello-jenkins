@@ -1,9 +1,10 @@
 #!/bin/sh
  
-
+ssh root@outils.int.globepayroll.com <<EOF
   cd /distrib/tools/gitWorkPlace/hello-jenkins
   git pull
   npm install --production
   forever start app.js
-
+exit
+EOF
 
